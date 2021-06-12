@@ -1,0 +1,89 @@
+.hero-section {
+    margin: 0 0 99.4px;
+    padding: 18.5px 117px 106px 139px;
+    background-image: linear-gradient(to bottom, #f1fefe, var(--pale-blue-0));
+}
+
+.hero-text-1 {
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--dark-grey-blue);
+}
+
+.hero-text-2 {
+    font-size: 56px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--dark-grey-blue);
+}
+
+.hero-text-3 {
+    width: 446px;
+    margin: 35px 175px 35px 0;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--dark-grey-blue);
+}
+
+.hero-button {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 35px 344px 115px 0;
+    padding: 14px 64px 16px 48px;
+    border-radius: 10px;
+    background-color: #00dbd0;
+}
+
+.text {
+    margin: 50px 0 0 0;
+}
+
+.decoration {
+    display: flex;
+    width: 395px;
+    height: 386px;
+    margin: 160px 17px 0 86.7px;
+    padding: 23px 22px 23px 23px;
+    background-color: #ffffff;
+}
+
+.text-decoration-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-box {
+    width: 350px;
+    height: 340px;
+    padding: 64.5px 65.3px 65px 66px;
+    border: solid 3px #00dbd0;
+}
+
+.decoration-flower {
+    position: relative;
+    right: 600px;
+    bottom: 7px;
+    width: 419px;
+    height: 570px;
+}
