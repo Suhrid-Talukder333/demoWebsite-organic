@@ -1,0 +1,29 @@
+/* Companies Section */
+.companies-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.companies-container {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySwiper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 300px;
+}

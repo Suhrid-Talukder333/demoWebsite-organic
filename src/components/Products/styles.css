@@ -1,0 +1,23 @@
+/* Product Section */
+.products-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card {
+    width: 240.7px;
+    margin-top: 82.1px;
+    height: 279.9px;
+    padding: 52.4px 51.7px 21px 51px;
+    border-radius: 20px;
+    margin-right: 5vw;
+}

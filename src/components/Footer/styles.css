@@ -1,0 +1,50 @@
+/* Footer section */
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url(../../assets/Group\ 229.png);
+    background-size: cover;
+}
+
+.block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-logo {}
+
+.footer-text {
+    width: 350px;
+    height: 44px;
+    margin-top: 31.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+
+.footer-line {
+    width: 77px;
+    height: 0;
+    margin-top: 32.3px;
+    border: solid 2px var(--aqua-blue);
+}
+
+.copy-right {
+    width: 200px;
+    height: 19px;
+    margin-top: 10.7px;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}

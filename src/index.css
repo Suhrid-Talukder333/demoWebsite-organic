@@ -4,6 +4,7 @@
 :root {
     --dark-grey-blue: #374b5c;
     --pale-blue-0: rgba(241, 254, 254, 0);
+    --aqua-blue: #00dbd0;
 }
 
 
@@ -14,4 +15,42 @@
     box-sizing: border-box;
     font-family: 'LibreBaskerville';
     text-decoration: none;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-header-heading {
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: var(--dark-grey-blue);
+    margin-top: 14.5px;
+}
+
+.section-header-text {
+    width: 650px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    margin-top: 19px;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: var(--dark-grey-blue);
+}
+
+.seciton-contents {
+    margin-top: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

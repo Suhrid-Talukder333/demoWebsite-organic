@@ -1,0 +1,131 @@
+.newsletter-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.side-img {
+    height: 80vw;
+    z-index: 5;
+    position: absolute;
+    top: -20vw;
+    left: -55vw;
+}
+
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-swipper {
+    width: 40vw;
+    height: 500px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-img {
+    width: 60px;
+    height: 50px;
+    padding: 0.2px 0px 0 0.4px;
+}
+
+.women-img-container {
+    width: 97.6px;
+    height: 97.6px;
+    border-radius: 50%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.women-img {
+    object-fit: cover;
+    width: 97.6px;
+    height: 150px;
+}
+
+.person-name {
+    font-size: 26px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 18.5px;
+    color: var(--dark-grey-blue);
+}
+
+.fa-star {
+    font-size: 19px;
+    padding: 3px;
+    color: var(--aqua-blue);
+}
+
+.stars {
+    margin-top: 10px;
+}
+
+.person-quote {
+    width: 630px;
+    height: 101px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey-blue);
+}
+
+.newsletter {
+    margin-top: 82.1px;
+}
+
+.email-input-box {
+    font-size: 18px;
+    margin-top: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey-blue);
+    outline: none;
+    border: none;
+}
+
+.email-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 569px;
+    height: 69px;
+    margin-top: 66px;
+    padding: 0 0 0 56.5px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.submit-btn {
+    width: 167px;
+    height: 69px;
+    padding: 21px 45.5px 24px;
+    border-radius: 30px;
+    background-color: var(--aqua-blue);
+    text-align: center;
+}

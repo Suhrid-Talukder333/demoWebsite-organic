@@ -54,7 +54,8 @@ a {
 }
 
 a:hover,
-a:active {
+.active {
+    border-width: 46px;
     border-bottom: solid 2px #00dbd0;
 }
 

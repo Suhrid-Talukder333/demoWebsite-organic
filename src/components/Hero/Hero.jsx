@@ -9,7 +9,7 @@ const Hero = () => {
     <>
       <div id="home" className="hero-section">
         <Navbar />
-        <div className="text-decoration-container">
+        <section className="text-decoration-container">
           <div className="text">
             <h2 className="hero-text-1">Healthy life with</h2>
             <h1 className="hero-text-2">Nature Organic</h1>
@@ -31,7 +31,7 @@ const Hero = () => {
               alt="white flower"
             />
           </div>
-        </div>
+        </section>
       </div>
     </>
   );
