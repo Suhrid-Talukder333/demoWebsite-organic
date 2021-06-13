@@ -8,7 +8,7 @@ import "./styles.css";
 const Blogs = () => {
   return (
     <section className="blogs-section">
-      <div className="section-header">
+      <div className="section-header" data-aos="fade-left">
         <img src={leaf} alt="leaf" />
         <h2 className="section-header-heading">Read Our Blog</h2>
         <p className="section-header-text">
@@ -18,7 +18,7 @@ const Blogs = () => {
       </div>
       <div className="section-contents">
         <div className="blogs-container">
-          <div className="blogs-card">
+          <div className="blogs-card" data-aos="fade-up" data-aos-delay="100">
             <img src={potted} alt="blogs" />
             <h3 className="blogs-name">Blog Post One</h3>
             <h4 className="blogs-description">
@@ -30,7 +30,7 @@ const Blogs = () => {
               <span className="line"></span>
             </a>
           </div>
-          <div className="blogs-card">
+          <div className="blogs-card" data-aos="fade-up" data-aos-delay="200">
             <img src={containers} alt="blogs" />
             <h3 className="blogs-name">Blog Post One</h3>
             <h4 className="blogs-description">
@@ -42,7 +42,7 @@ const Blogs = () => {
               <span className="line"></span>
             </a>
           </div>
-          <div className="blogs-card">
+          <div className="blogs-card" data-aos="fade-up" data-aos-delay="300">
             <img src={eucalyptus} alt="blogs" />
             <h3 className="blogs-name">Blog Post One</h3>
             <h4 className="blogs-description">

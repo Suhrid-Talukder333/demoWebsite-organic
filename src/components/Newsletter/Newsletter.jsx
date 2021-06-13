@@ -12,7 +12,7 @@ const Newsletter = () => {
   return (
     <section className="newsletter-section">
       <img src={sideLeaves} className="side-img"></img>
-      <div className="quote-section">
+      <div className="quote-section" data-aos="fade-right">
         <Swiper
           pagination={true}
           loop={true}
@@ -114,7 +114,11 @@ const Newsletter = () => {
         </Swiper>
       </div>
       <div className="newsletter">
-        <div className="section-header">
+        <div
+          className="section-header"
+          data-aos="fade-down"
+          data-aos-delay="100"
+        >
           <h2 className="section-header-heading">
             Subscribe to Our Newsletter
           </h2>

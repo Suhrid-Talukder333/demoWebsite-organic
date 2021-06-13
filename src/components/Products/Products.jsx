@@ -6,7 +6,7 @@ import "./styles.css";
 const Products = () => {
   return (
     <section className="products-section">
-      <div className="section-header">
+      <div className="section-header" data-aos="fade-right">
         <img src={leaf} alt="leaf" />
         <h2 className="section-header-heading">Welcome to Nature</h2>
         <p className="section-header-text">
@@ -16,10 +16,26 @@ const Products = () => {
       </div>
       <div className="section-contents">
         <div className="products-container">
-          <div className="product-card"></div>
-          <div className="product-card"></div>
-          <div className="product-card"></div>
-          <div className="product-card"></div>
+          <div
+            className="product-card"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          ></div>
+          <div
+            className="product-card"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          ></div>
+          <div
+            className="product-card"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          ></div>
+          <div
+            className="product-card"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          ></div>
         </div>
       </div>
     </section>

@@ -10,7 +10,7 @@ const Hero = () => {
       <div id="home" className="hero-section">
         <Navbar />
         <section className="text-decoration-container">
-          <div className="text">
+          <div className="text" data-aos="zoom-in">
             <h2 className="hero-text-1">Healthy life with</h2>
             <h1 className="hero-text-2">Nature Organic</h1>
             <p className="hero-text-3">
@@ -21,7 +21,7 @@ const Hero = () => {
               Explore Now
             </a>
           </div>
-          <div className="decoration">
+          <div className="decoration" data-aos="zoom-in-left">
             <div className="inner-box">
               <img src={logo} alt="brand logo" />
             </div>
