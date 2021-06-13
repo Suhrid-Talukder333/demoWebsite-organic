@@ -16,18 +16,10 @@ const Products = () => {
       </div>
       <div className="section-contents">
         <div className="products-container">
-          <div className="product-card">
-            <img src={product} alt="product" />
-          </div>
-          <div className="product-card">
-            <img src={product} alt="product" />
-          </div>
-          <div className="product-card">
-            <img src={product} alt="product" />
-          </div>
-          <div className="product-card">
-            <img src={product} alt="product" />
-          </div>
+          <div className="product-card"></div>
+          <div className="product-card"></div>
+          <div className="product-card"></div>
+          <div className="product-card"></div>
         </div>
       </div>
     </section>

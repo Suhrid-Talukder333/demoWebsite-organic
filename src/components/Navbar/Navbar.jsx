@@ -6,8 +6,10 @@ const Navbar = () => {
   return (
     <nav>
       <div className="brand">
-        <img className="brand-logo" src={logo} alt="brand logo" />
-        <p className="brand-name">organic</p>
+        <a className="brand-link" href="#home">
+          <img className="brand-logo" src={logo} alt="brand logo" />
+          <p className="brand-name">organic</p>
+        </a>
       </div>
       <div className="links">
         <ul>

@@ -26,6 +26,14 @@ nav {
     color: var(--dark-grey-blue);
 }
 
+.brand-link {
+    display: flex;
+}
+
+.brand-link:hover {
+    border: none;
+}
+
 .links,
 ul {
     display: flex;
@@ -67,4 +75,9 @@ a:hover,
     padding: 12px 48px 13px 38px;
     border-radius: 10px;
     border: solid 2px #00dbd0;
+}
+
+.contact-button:hover {
+    border: none;
+    background-color: var(--aqua-blue);
 }

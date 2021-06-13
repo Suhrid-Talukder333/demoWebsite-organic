@@ -20,4 +20,12 @@
     padding: 52.4px 51.7px 21px 51px;
     border-radius: 20px;
     margin-right: 5vw;
+    background: url(../../assets/Group\ 207.png);
+    /* border: 1px rgba(0, 0, 0, 0.432);
+    border-style: dashed; */
+    background-size: contain;
+}
+
+.product-card:hover {
+    background: url(../../assets/Group\ 205.png);
 }
