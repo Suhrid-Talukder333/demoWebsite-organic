@@ -1,5 +1,5 @@
 <h1>Demo Organic</h1>
-<div><img src="https://media.giphy.com/media/11c0uFaMLhK30QNBEd/giphy.gif" /></div>
+<div><img src="https://media.giphy.com/media/7q4An2FoKf84puLjSI/giphy.gif" /></div>
 
 ## Info
 
