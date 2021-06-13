@@ -12,7 +12,7 @@ SwiperCore.use([Pagination, Navigation]);
 const Companies = () => {
   return (
     <section className="companies-section">
-      <div className="section-header">
+      <div className="section-header" data-aos="fade-right">
         <img src={leaf} alt="leaf" />
         <h2 className="section-header-heading">Proudly presented by</h2>
         <p className="section-header-text">
@@ -21,7 +21,7 @@ const Companies = () => {
         </p>
       </div>
       <div className="section-contents">
-        <div className="companies-container">
+        <div className="companies-container" data-aos="fade-down">
           <Swiper
             slidesPerView={5}
             pagination={{
