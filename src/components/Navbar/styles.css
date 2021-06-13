@@ -49,7 +49,7 @@ li {
     margin: 0 30px;
 }
 
-.links ul li a {
+a {
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -61,7 +61,7 @@ li {
     text-decoration: none;
 }
 
-.links ul li a:hover,
+a:hover,
 .active {
     border-width: 46px;
     border-bottom: solid 2px #00dbd0;
